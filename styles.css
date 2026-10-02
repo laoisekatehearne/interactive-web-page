@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Orbitron&display=swap');
+
+
+body {
+	background-color:#affafa;
+}
+
+.apple-area {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.apple-area img {
+  display: block;
+  width: 400px;
+  height: auto;
+}
+
+nav {
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+nav button {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  padding: 8px 14px;
+  border: 1.5px solid #333;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+#timer {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin: 0;
+  font-size: 50px;
+  font-family: Orbitron, sans-serif;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  transition: color 0.2s ease;
+}
+
+#timer:hover {
+	color: #fffb8a;
+}
+header {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 14px;
+  color: #333;
+}
+
+
+#btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;	
+  gap: 20px;
+
+}
+
+#btn button {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  color: white;
+  padding: 10px 18px;
+  border: 1.5px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+
+#btn button:hover {
+	border: 1.5px solid black;
+}
+
+
+
+#btnStart {
+	background-color:green;
+}
+
+#btnStop {
+	background-color:red;
+}
+
+#btnPause {
+	background-color:orange;
+}
+
+.below15 {
+	color:red;
+	background-color: black;
+	border-radius: 5px;
+	padding: 4px 8px;
+}
